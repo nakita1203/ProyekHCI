@@ -1,0 +1,54 @@
+# Auto normalize line endings
+* text=auto
+
+# Explicitly declare text files to normalize line endings
+*.cs text
+*.shader text
+*.cginc text
+*.hlsl text
+*.txt text
+*.json text
+*.xml text
+*.asmdef text
+*.rsp text
+*.asmref text
+*.unity text
+*.prefab text
+*.mat text
+*.meta text
+*.anim text
+*.controller text
+*.overrideController text
+*.mask text
+
+# Treat images and binaries as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+*.gif binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.fbx binary
+*.blend binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# Unity YAML files (Scene, Prefab, etc.)
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+
+# Ignore binaries that shouldn't be diffed
+*.dll binary
+*.exe binary
+
+# Ignore Visual Studio files
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.unityproj text eol=crlf
