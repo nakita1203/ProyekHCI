@@ -8,12 +8,14 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Car_Paint_-_Matte_Dark_Gray
-    second: {fileID: 4874126678125670354, guid: cf75aef3d609d904d85958e901af9885, type: 3}
+    second: {fileID: 4874126678125670354, guid: cf75aef3d609d904d85958e901af9885,
+      type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal_-_Stainless_Steel_Polished
-    second: {fileID: 4874126678125670354, guid: cf75aef3d609d904d85958e901af9885, type: 3}
+    second: {fileID: 4874126678125670354, guid: cf75aef3d609d904d85958e901af9885,
+      type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -46,14 +48,14 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 2
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
